@@ -1,0 +1,128 @@
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.cardImg {
+  width: 100%;
+  height: 350px;
+  background-color: lightgrey;
+  padding: 0 !important;
+  border: 1px solid black;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.messageBox .row {
+  padding: 5px;
+}
+
+.reviewHeading {
+  width: 100%;
+}
+
+.toastStyle {
+  position: fixed;
+  bottom: 50px;
+  text-align: center;
+}
+
+.toast {
+  display: inline-block !important;
+}
+
+.footer {
+  background-color: lightgrey;
+  padding: 8px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerMain {
+  margin-top: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f7dac5;
+}
+
+.footerHeading {
+  font-size: large;
+  font-weight: 600;
+}
+
+.footerSubHeading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.footerCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.changeCardStyle {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: blue;
+}
+
+.headerMain {
+  min-height: 150px;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.headerLogo {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: grey !important;
+}
+
+.mainNavContainer {
+  padding-bottom: 30px;
+}
+
+.mainNavItem {
+  text-align: center;
+  font-size: small;
+}
+
+.mainNavItem > a {
+  color: black !important;
+}
+
+.mainNavItem > a:hover {
+  color: #a05555 !important;
+  text-decoration: none;
+}
+
+.mainNavItem > a:focus {
+  color: #a05555 !important;
+}
+
+.navbar {
+  max-height: 50px;
+}
+
+.divider {
+  height: 40px;
+  min-width: 2px;
+  max-width: 2px;
+  border-left: 1px solid grey;
+}
